@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notebook</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-container">
+  <app-header title="Notebook" subtitle="Tulis dan simpan catatan Anda"></app-header>
+  <main class="app-main">
+    <section class="note-form-section">
+      <note-form></note-form>
+    </section>
+    <section class="note-list-section">
+      <h2 class="section-title">Catatan</h2>
+      <div class="note-list" id="notes-container">
+        <!-- Notes will be rendered here -->
+      </div>
+    </section>
+  </main>
+  <app-footer copyright="&copy; 2025 Notebook" author="Adi Kurniawan"></app-footer>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
